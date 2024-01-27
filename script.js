@@ -8,6 +8,13 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('cep').value = storedData.cep || '';
   document.getElementById('consent').checked = storedData.consent || true;
 
+  
+  // Função de validação de e-mail simples
+  function isValidEmail(email) {
+    // Regex básico para verificar um e-mail
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
   contactForm.addEventListener('submit', function (event) {
       event.preventDefault();
 
@@ -31,10 +38,5 @@ document.addEventListener('DOMContentLoaded', function () {
       alert('Formulário enviado com sucesso!');
   });
 
-  // Função de validação de e-mail simples
-  function isValidEmail(email) {
-      // Regex básico para verificar um e-mail
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      return emailRegex.test(email);
-  }
+
 });
