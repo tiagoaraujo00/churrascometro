@@ -9,6 +9,7 @@ body {
 
 .container {
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 form {
