@@ -1,3 +1,7 @@
+Alunos:
+Douglas Lima de Queiroz,
+Tiago Araujo de Morais
+
 Enunciado do projeto prático
 
 Objetivo

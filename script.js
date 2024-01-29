@@ -91,4 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     return (value * 1000).toFixed(2) + " gr";
   }
+
+  
 });
